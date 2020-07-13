@@ -1,0 +1,12 @@
+addi $sp $sp 15
+lw $t0 0($bp)
+lw $t1 1($bp)
+beq $t1 $t1 4
+add $t2 $t1 $t0
+sw $t2 2($bp)
+sw $t2 0($sp)
+subi $sp $sp 1
+addi $t0 7
+sw $t0 0($sp)
+subi $sp $sp 1
+j 0

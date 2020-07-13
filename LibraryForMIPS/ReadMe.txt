@@ -1,0 +1,1 @@
+Use "dk.diku.logisim.MIPS" WithOut Quotation as Class Name
